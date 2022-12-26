@@ -1,9 +1,8 @@
-on:
-  push:
-    branches:
-      - master
+
 
 name: "Trigger: Push action"
+run-name: test shellcheck 🚀
+on: [push]
 permissions: {}
 
 jobs:
